@@ -1,0 +1,42 @@
+#calci{
+  border: 2px solid rgb(185, 176, 176);
+  border-radius: 7px;
+  width: 400px;
+}
+
+#display{
+  border: 1px solid rgb(167, 95, 95);
+  background-color: rgb(243, 237, 237);
+  color: rgb(167, 95, 95);
+  text-align: right;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  margin : 10px 8px;
+  border-radius: 7px;
+  height: 65px;
+  width: 369px;
+}
+
+.button{
+  border: 1px solid rgb(167, 95, 95);
+  color: rgb(167, 95, 95);
+  width: 80px;
+  height: 50px;
+  border-radius: 7px;
+  margin: 5px 10px;
+  background-color: rgb(235, 222, 222);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 10px;
+  gap: 10px;
+  align-items: center;
+  flex-direction: row;
+  width: 370px;
+  background-color: rgb(255, 243, 243); 
+  justify-content: center;
+}
